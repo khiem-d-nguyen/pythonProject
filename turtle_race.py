@@ -33,6 +33,8 @@ xcor_turtle_2 = -250
 turtle.speed(5)
 turtle_2.speed(5)
 import random
+
+
 while xcor_turtle != 250 and xcor_turtle_2 != 250:
     x = random.randint(1, 12)
     y = random.randint(1, 12)
