@@ -1,0 +1,17 @@
+import turtle
+turtle.penup()
+turtle.goto(-50, 30)
+turtle.pendown()
+turtle.bgcolor('light blue')
+turtle.title('turtle test')
+turtle.color('black', 'dark green')
+turtle.shape('turtle')
+turtle.begin_fill()
+turtle.forward(100)
+turtle.right(120)
+turtle.forward(100)
+turtle.right(120)
+turtle.forward(100)
+turtle.end_fill()
+while True:
+    turtle.right(0)
